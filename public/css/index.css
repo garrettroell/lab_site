@@ -8,8 +8,18 @@ body {
   padding: 0px 0px;
   margin: 0px 0px;
   font-family: 'Open Sans', sans-serif;
+  /* font-family: sans-serif; */
   color: #000000;
   background-color: var(--hawaii-yellow-background);
+}
+
+a {
+  color: var(--hawaii-green);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .container {
@@ -49,6 +59,7 @@ header h2 {
   margin: 0px;
   margin-bottom: 16px;
   font-size: 18px;
+  font-weight: 600;
 }
 
 nav ul {
@@ -65,11 +76,6 @@ nav ul li {
 
 nav ul li a {
   color: var(--hawaii-yellow);
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: var(--hawaii-green);
 }
 
 .section-title {
@@ -110,10 +116,13 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   max-width: 1000px;
+  box-sizing: border-box; /* To include the padding in the container's total width */
+  margin: auto;
+  margin-top: 20px;
 }
 
 .banner-image {
-  max-width: 900px;
+  max-width: calc(100% - 20px);
   margin: auto;
   border-radius: 10px;
 }
@@ -136,7 +145,7 @@ nav ul li a:hover {
   margin: 0px;
   width: 100%;
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .projects-list {
@@ -152,7 +161,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .projects-tile-list .project-tile:last-child {
@@ -172,42 +181,8 @@ nav ul li a:hover {
 }
 
 .project-tile-title-text {
-  font-size: 24px;
+  font-size: 20px;
   margin: 0px 0px;
-}
-
-.small-github-thick-icon {
-  margin-top: 3px;
-  height: 25px;
-  width: 25px;
-  filter: invert(25%) sepia(4%) saturate(3939%) hue-rotate(170deg) brightness(97%) contrast(90%);
-}
-
-.small-github-thick-icon:hover {
-  filter: invert(56%) sepia(8%) saturate(2962%) hue-rotate(111deg) brightness(95%) contrast(86%);
-}
-
-.project-tile-title-link {
-  text-decoration: none;
-  color: var(--light-primary-text-color);
-}
-
-.project-tile-title-link:visited {
-  color: var(--light-primary-text-color);
-}
-
-.project-tile-title-link:hover {
-  color: var(--light-link-hover-color);
-}
-
-.project-tile-subtitle {
-  font-size: 16px;
-  color: var(--light-secondary-text-color);
-  margin: 10px 0px;
-}
-
-.subtitle-link {
-  text-decoration: none;
 }
 
 .project-image-holder {
@@ -217,8 +192,8 @@ nav ul li a:hover {
 }
 
 .project-image {
-  width: 150px;
-  max-height: 150px;
+  width: 80px;
+  max-height: 120px;
   object-fit: contain; 
   object-position: center center;
 }
@@ -239,12 +214,6 @@ nav ul li a:hover {
 }
 
 .publications {
-  background-color: var(--light-primary-background-color);
   padding-top: 75px;
   padding-bottom: 75px;
-}
-
-.publications-title {
-  text-align: center;
-  font-size: 40px;
 }
