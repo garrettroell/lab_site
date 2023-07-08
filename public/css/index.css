@@ -149,7 +149,6 @@ nav ul li a {
 }
 
 .projects-list {
-  min-width: 800px;
   max-width: 800px;
   display: flex;
   flex-direction: column;
@@ -198,7 +197,16 @@ nav ul li a {
   object-position: center center;
 }
 
+.publications {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
 @media only screen and (max-width: 600px) {
+  .uh-logo {
+    display: none;
+  }
+
   .project-image {
     display: none;
   }
@@ -211,9 +219,4 @@ nav ul li a {
   .project-tile-title {
     justify-content: space-between;
   }
-}
-
-.publications {
-  padding-top: 75px;
-  padding-bottom: 75px;
 }
