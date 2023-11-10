@@ -11,6 +11,10 @@ app.get("/", (_, res) => {
   res.sendFile("public/pages/index.html", { root: "." });
 });
 
+app.get("/papers/gpt4-knowledge-mining", (_, res) => {
+  res.sendFile("public/papers/gpt4-knowledge-mining.pdf", { root: "." });
+});
+
 app.get("/papers/r-opacus-genome-scale-model", (_, res) => {
   res.sendFile("public/papers/r-opacus-genome-scale-model.pdf", { root: "." });
 });
