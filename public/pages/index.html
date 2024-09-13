@@ -1,103 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/meta/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/meta/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/meta/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="/meta/site.webmanifest"
+      crossorigin="anonymous"
+    />
+    <link rel="mask-icon" href="/meta/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="The Garrett Roell lab at the University of Hawaiʻi at Mānoa"
+    />
 
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/meta/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/meta/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/meta/favicon-16x16.png">
-  <link rel="manifest" href="/meta/site.webmanifest" crossorigin="anonymous">
-  <link rel="mask-icon" href="/meta/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Garrett Roell's lab at the n.">
+    <title>Roell Lab</title>
 
-  <title>Roell Lab</title>
+    <!-- import font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- import font -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- import css -->
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
 
-  <!-- import css -->
-  <link rel="stylesheet" href="/css/index.css">
-  <link rel="stylesheet" href="/css/footer.css">
+    <!-- scripts -->
+    <script src="/js/footer.js" defer></script>
+  </head>
 
-  <!-- scripts -->
-  <script src="/js/footer.js" defer></script>
-</head>
-
-<body>
-  <header class="top-bar">
-    <div class="top-bar-container">
-      <div class="top-bar-text">
-        <div class="title-text">
-          <h1>AI and Metabolic Modeling Lab</h1>
-          <h2>Roell Research Group - University of Hawaiʻi at Mānoa </h2>
+  <body>
+    <header class="top-bar">
+      <div class="top-bar-container">
+        <div class="top-bar-text">
+          <div class="title-text">
+            <h1>AI and Metabolic Modeling Lab</h1>
+            <h2>Roell Research Group - University of Hawaiʻi at Mānoa</h2>
+          </div>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="/#research">Research</a></li>
+              <li><a href="/#publications">Publications</a></li>
+              <!-- <li><a href="/#people">PEOPLE</a></li> -->
+              <li><a href="/#about">About</a></li>
+              <li><a href="/#contact">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav>
-          <ul class="nav-links">
-            <li><a href="/#research">Research</a></li>
-            <li><a href="/#publications">Publications</a></li>
-            <!-- <li><a href="/#people">PEOPLE</a></li> -->
-            <li><a href="/#about">About</a></li>
-            <li><a href="/#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <img
+          src="/images/uh_logo.webp"
+          alt="UH Logo"
+          height="100px"
+          width="100px"
+          class="uh-logo"
+        />
       </div>
-      <img src="/images/uh_logo.webp" alt="UH Logo" height="100px" width="100px" class="uh-logo">
+    </header>
+
+    <div class="top-bar-spacer"></div>
+
+    <div class="banner-image-holder">
+      <a href="https://goo.gl/maps/fJ2SE7mszzAeiBMy6" target="_blank">
+        <img
+          src="/images/diamondhead.jpg"
+          class="banner-image"
+          alt="Diamondhead and UH Mānoa"
+        />
+      </a>
     </div>
-  </header>
 
-  <div class="top-bar-spacer"></div>
+    <main class="container">
+      <section id="research">
+        <h2 class="section-title">RESEARCH</h2>
+        <div class="section-content">
+          <p>
+            The Roell lab is working to further the field of synthetic biology.
+            We believe that many products that are typically derived from fossil
+            resources can be sustainably and economically made from
+            fermentations with yeast or bacteria. Historically, the costs
+            associated with strain development and bioprocess optimization have
+            made this approach prohibitively expensive. Our research focuses on
+            developing tools to leverage bioreactor operations, fermentation
+            results, and omics data to bridge the gap between research and
+            real-world application to make bio-derived products a commercial
+            reality.
+          </p>
+        </div>
+      </section>
+      <section id="about">
+        <h2 class="section-title">ABOUT GARRETT</h2>
+        <div class="section-content">
+          <p>
+            Garrett Roell is an Assistant Professor in the
+            <a href="https://cms.ctahr.hawaii.edu/" target="_blank"
+              >College of Tropical Agriculture and Human Resources</a
+            >
+            (CTAHR) in the
+            <a href="https://cms.ctahr.hawaii.edu/mbbe" target="_blank"
+              >Department of Molecular Biosciences & Bioengineering</a
+            >
+            at the
+            <a href="https://manoa.hawaii.edu/" target="_blank"
+              >University of Hawaiʻi at Mānoa</a
+            >.
 
+            <br /><br />
+            Previously, Garrett earned his Ph.D. at Washington University in St.
+            Louis in
+            <a href="https://tang.eece.wustl.edu/" target="_blank"
+              >Yinjie Tang</a
+            >’s Group. While working on his degree, Garrett earned a DOE Office
+            of Science Graduate Student Research Award that allowed him to work
+            at Lawrence Berkeley National Lab with
+            <a
+              href="https://sites.google.com/view/hectorgarciamartinhomepage/"
+              target="_blank"
+              >Hector García Martín</a
+            >.
+          </p>
+        </div>
+      </section>
 
-  <div class="banner-image-holder">
-    <a href="https://goo.gl/maps/fJ2SE7mszzAeiBMy6" target="_blank">
-      <img src="/images/diamondhead.jpg" class="banner-image" alt="Diamondhead and UH Mānoa">
-    </a>
-  </div>
-
-
-  <main class="container">
-    <section id="research">
-      <h2 class="section-title">RESEARCH</h2>
-      <div class="section-content">
-        <p>
-          The Roell lab aims to advance the process of industrial fermentation, a method widely used to produce valuable
-          goods such as pharmaceuticals, vitamins, and polymers. While this process is sustainable and provides a stable
-          supply chain for essential materials, lengthy and costly R&D phases pose significant barriers to market
-          entry. To overcome this challenge, our research focuses on the development of tools to leverage bioreactor
-          operations, fermentation results, and omics data to generate actionable insights. The platforms we develop not
-          only assist in large-scale data generation but also explore novel applications that will allow the field to
-          realize the full potential of synthetic biology.
-        </p>
-        <!-- <a class="button" href="#">Read More</a> -->
-      </div>
-    </section>
-    <section id="about">
-      <h2 class="section-title">ABOUT GARRETT</h2>
-      <div class="section-content">
-        <p>
-          Garrett Roell is an Assistant Professor in the <a href="https://cms.ctahr.hawaii.edu/" target="_blank">College
-            of Tropical
-            Agriculture and Human Resources</a> (CTAHR) in
-          the <a href="https://cms.ctahr.hawaii.edu/mbbe" target="_blank">Department of Molecular Biosciences &
-            Bioengineering</a> at
-          the <a href="https://manoa.hawaii.edu/" target="_blank">University of Hawaiʻi at Mānoa</a>.
-
-          <br><br>
-          Previously, Garrett earned his Ph.D. at Washington University in St. Louis in <a
-            href="https://tang.eece.wustl.edu/" target="_blank">Yinjie Tang</a>’s Group. While working
-          on his degree, Garrett earned a DOE Office of Science Graduate Student Research Award that allowed him to work
-          at Lawrence Berkeley National Lab with <a href="https://sites.google.com/view/hectorgarciamartinhomepage/"
-            target="_blank">Hector García Martín</a>.
-        </p>
-      </div>
-    </section>
-
-    <!-- <section id="people">
+      <!-- <section id="people">
       <h2 class="section-title">PEOPLE</h2>
       <div class="section-content">
         <p>
@@ -111,171 +157,282 @@
       </div>
     </section> -->
 
-    <section id="publications">
-      <h2 class="section-title">PUBLICATIONS</h2>
-      <!-- <div class="container"> -->
-      <div class="projects-title-and-list">
-        <div class="projects-list">
-          <div class="projects-tile-list">
-
-            <!-- GPT-4 Knowledge Mining Paper -->
-            <div class="project-tile">
-              <div class="project-tile-text">
-                <div class="project-tile-title">
-                  <h3 class="project-tile-title-text">
-                    <a class="project-tile-title-link" target="_blank" href="/papers/gpt4-knowledge-mining">
-                      Generative Artificial Intelligence GPT‑4 Accelerates Knowledge Mining and Machine Learning for
-                      Synthetic Biology
-                    </a>
-                  </h3>
+      <section id="publications">
+        <h2 class="section-title">PUBLICATIONS</h2>
+        <!-- <div class="container"> -->
+        <div class="projects-title-and-list">
+          <div class="projects-list">
+            <div class="projects-tile-list">
+              <!-- Yarrowia TAG paper -->
+              <div class="project-tile">
+                <div class="project-tile-text">
+                  <div class="project-tile-title">
+                    <h3 class="project-tile-title-text">
+                      <a
+                        class="project-tile-title-link"
+                        target="_blank"
+                        href="/papers/yarrowia-tag-mfa-gsm"
+                      >
+                        Elucidation of triacylglycerol catabolism in Yarrowia
+                        lipolytica: How cells balance acetyl-CoA and excess
+                        reducing equivalents
+                      </a>
+                    </h3>
+                  </div>
+                  <p class="project-tile-subtitle">
+                    Alyssa M. Worland, Zhenlin Han, Jessica Maruwan, Yu Wang,
+                    Zhi-Yan Du, Yinjie J. Tang, Wei Wen Su*,
+                    <strong>Garrett W. Roell*</strong>
+                  </p>
                 </div>
-                <p class="project-tile-subtitle">
-                  Zhengyang Xiao, Wenyu Li, Hannah Moon, <strong>Garrett W. Roell*</strong>, Yixin Chen*, and Yinjie J.
-                  Tang*
-                </p>
+                <a
+                  href="/papers/yarrowia-tag-mfa-gsm"
+                  target="_blank"
+                  class="project-image-holder"
+                  aria-label="link to paper"
+                >
+                  <img
+                    class="project-image"
+                    src="images/metabolic_engineering.webp"
+                    alt="Metabolic Engineering Journal Cover"
+                    height="150px"
+                    width="150px"
+                  />
+                </a>
               </div>
-              <a href="/papers/gpt4-knowledge-mining" target="_blank" class="project-image-holder"
-                aria-label="link to paper">
-                <img class="project-image" src="/images/gpt4-knowledge-mining.webp" alt="ACS Synthetic Biology Cover"
-                  height="150px" width="150px">
-              </a>
-            </div>
 
-            <!-- Rhodococcus GSM Paper -->
-            <div class="project-tile">
-              <div class="project-tile-text">
-                <div class="project-tile-title">
-                  <h3 class="project-tile-title-text">
-                    <a class="project-tile-title-link" target="_blank" href="/papers/r-opacus-genome-scale-model">
-                      A High-Quality Genome-Scale Model for Rhodococcus opacus Metabolism
-                    </a>
-                  </h3>
+              <!-- GPT-4 Knowledge Mining Paper -->
+              <div class="project-tile">
+                <div class="project-tile-text">
+                  <div class="project-tile-title">
+                    <h3 class="project-tile-title-text">
+                      <a
+                        class="project-tile-title-link"
+                        target="_blank"
+                        href="/papers/gpt4-knowledge-mining"
+                      >
+                        Generative Artificial Intelligence GPT‑4 Accelerates
+                        Knowledge Mining and Machine Learning for Synthetic
+                        Biology
+                      </a>
+                    </h3>
+                  </div>
+                  <p class="project-tile-subtitle">
+                    Zhengyang Xiao, Wenyu Li, Hannah Moon,
+                    <strong>Garrett W. Roell*</strong>, Yixin Chen*, and Yinjie
+                    J. Tang*
+                  </p>
                 </div>
-                <p class="project-tile-subtitle">
-                  <strong>Garrett W. Roell</strong>, Christina Schenk, Winston E. Anthony, Rhiannon R. Carr, Aditya
-                  Ponukumati, Joonhoon Kim, Elena Akhmatskaya, Marcus Foston, Gautam Dantas, Tae Seok
-                  Moon, Yinjie J. Tang, Hector García Martín
-                </p>
+                <a
+                  href="/papers/gpt4-knowledge-mining"
+                  target="_blank"
+                  class="project-image-holder"
+                  aria-label="link to paper"
+                >
+                  <img
+                    class="project-image"
+                    src="/images/gpt4-knowledge-mining.webp"
+                    alt="ACS Synthetic Biology Cover"
+                    height="150px"
+                    width="150px"
+                  />
+                </a>
               </div>
-              <a href="/papers/r-opacus-genome-scale-model" target="_blank" class="project-image-holder"
-                aria-label="link to paper">
-                <img class="project-image" src="/images/acs_gsm_cover.webp" alt="ACS Synthetic Biology Cover"
-                  height="150px" width="150px">
-              </a>
-            </div>
 
-            <!-- Syngas Machine Learning Paper -->
-            <div class="project-tile">
-              <div class="project-tile-text">
-                <div class="project-tile-title">
-                  <h3 class="project-tile-title-text">
-                    <a class="project-tile-title-link" target="_blank" href="/papers/syngas-machine-learning">
-                      A comparative evaluation of machine learning algorithms for predicting
-                      syngas fermentation outcomes
-                    </a>
-                  </h3>
+              <!-- Rhodococcus GSM Paper -->
+              <div class="project-tile">
+                <div class="project-tile-text">
+                  <div class="project-tile-title">
+                    <h3 class="project-tile-title-text">
+                      <a
+                        class="project-tile-title-link"
+                        target="_blank"
+                        href="/papers/r-opacus-genome-scale-model"
+                      >
+                        A High-Quality Genome-Scale Model for Rhodococcus opacus
+                        Metabolism
+                      </a>
+                    </h3>
+                  </div>
+                  <p class="project-tile-subtitle">
+                    <strong>Garrett W. Roell</strong>, Christina Schenk, Winston
+                    E. Anthony, Rhiannon R. Carr, Aditya Ponukumati, Joonhoon
+                    Kim, Elena Akhmatskaya, Marcus Foston, Gautam Dantas, Tae
+                    Seok Moon, Yinjie J. Tang, Hector García Martín
+                  </p>
                 </div>
-                <p class="project-tile-subtitle">
-                  <strong>Garrett W. Roell</strong>, Ashik Sathish, Ni Wan, Qianshun Cheng, Zhiyou Wen, Yinjie J.
-                  Tang,
-                  Forrest Sheng Bao
-
-                </p>
+                <a
+                  href="/papers/r-opacus-genome-scale-model"
+                  target="_blank"
+                  class="project-image-holder"
+                  aria-label="link to paper"
+                >
+                  <img
+                    class="project-image"
+                    src="/images/acs_gsm_cover.webp"
+                    alt="ACS Synthetic Biology Cover"
+                    height="150px"
+                    width="150px"
+                  />
+                </a>
               </div>
-              <a href="/papers/syngas-machine-learning" target="_blank" class="project-image-holder"
-                aria-label="link to paper">
 
-                <img class="project-image" src="/images/biochemical_engineering_journal.webp"
-                  alt="Biochemical Engineering Journal Cover" height="150px" width="150px">
-              </a>
-            </div>
-
-            <!-- Concerted Systems Biology R. opacus Paper -->
-            <div class="project-tile">
-              <div class="project-tile-text">
-                <div class="project-tile-title">
-                  <h3 class="project-tile-title-text">
-                    <a class="project-tile-title-link" target="_blank" href="/papers/system-biology-r-opacus">
-                      A concerted systems biology analysis of phenol metabolism in
-                      <em>Rhodococcus opacus</em> PD630
-                    </a>
-                  </h3>
+              <!-- Syngas Machine Learning Paper -->
+              <div class="project-tile">
+                <div class="project-tile-text">
+                  <div class="project-tile-title">
+                    <h3 class="project-tile-title-text">
+                      <a
+                        class="project-tile-title-link"
+                        target="_blank"
+                        href="/papers/syngas-machine-learning"
+                      >
+                        A comparative evaluation of machine learning algorithms
+                        for predicting syngas fermentation outcomes
+                      </a>
+                    </h3>
+                  </div>
+                  <p class="project-tile-subtitle">
+                    <strong>Garrett W. Roell</strong>, Ashik Sathish, Ni Wan,
+                    Qianshun Cheng, Zhiyou Wen, Yinjie J. Tang, Forrest Sheng
+                    Bao
+                  </p>
                 </div>
-                <p class="project-tile-subtitle">
-                  <strong>Garrett W. Roell</strong>, Rhiannon R. Carr, Tayte Campbell, Zeyu Shang, William R. Henson,
-                  Jeffrey J.Czajka, Hector García Martín, Fuzhong Zhang, Marcus Foston, Gautam Dantas, Tae Seok Moon,
-                  Yinjie J.Tang
-                </p>
+                <a
+                  href="/papers/syngas-machine-learning"
+                  target="_blank"
+                  class="project-image-holder"
+                  aria-label="link to paper"
+                >
+                  <img
+                    class="project-image"
+                    src="/images/biochemical_engineering_journal.webp"
+                    alt="Biochemical Engineering Journal Cover"
+                    height="150px"
+                    width="150px"
+                  />
+                </a>
               </div>
-              <a href="/papers/system-biology-r-opacus" target="_blank" class="project-image-holder"
-                aria-label="link to paper">
-                <img class="project-image" src="images/metabolic_engineering.webp"
-                  alt="Metabolic Engineering Journal Cover" height="150px" width="150px">
-              </a>
-            </div>
 
-            <!-- Division of Labor Review Paper -->
-            <div class="project-tile">
-              <div class="project-tile-text">
-                <div class="project-tile-title">
-                  <h3 class="project-tile-title-text">
-                    <a class="project-tile-title-link" target="_blank" href="/papers/division-of-labor-review">
-                      Engineering microbial consortia by division of labor
-                    </a>
-                  </h3>
+              <!-- Concerted Systems Biology R. opacus Paper -->
+              <div class="project-tile">
+                <div class="project-tile-text">
+                  <div class="project-tile-title">
+                    <h3 class="project-tile-title-text">
+                      <a
+                        class="project-tile-title-link"
+                        target="_blank"
+                        href="/papers/system-biology-r-opacus"
+                      >
+                        A concerted systems biology analysis of phenol
+                        metabolism in
+                        <em>Rhodococcus opacus</em> PD630
+                      </a>
+                    </h3>
+                  </div>
+                  <p class="project-tile-subtitle">
+                    <strong>Garrett W. Roell</strong>, Rhiannon R. Carr, Tayte
+                    Campbell, Zeyu Shang, William R. Henson, Jeffrey J.Czajka,
+                    Hector García Martín, Fuzhong Zhang, Marcus Foston, Gautam
+                    Dantas, Tae Seok Moon, Yinjie J.Tang
+                  </p>
                 </div>
-                <p class="project-tile-subtitle">
-                  <strong>Garrett W. Roell</strong>, Jian Zha, Rhiannon R. Carr, Mattheos A. Koffas, Stephen S. Fong,
-                  and Yinjie J. Tang
-                </p>
+                <a
+                  href="/papers/system-biology-r-opacus"
+                  target="_blank"
+                  class="project-image-holder"
+                  aria-label="link to paper"
+                >
+                  <img
+                    class="project-image"
+                    src="images/metabolic_engineering.webp"
+                    alt="Metabolic Engineering Journal Cover"
+                    height="150px"
+                    width="150px"
+                  />
+                </a>
               </div>
-              <a href="/papers/division-of-labor-review" target="_blank" class="project-image-holder"
-                aria-label="link to paper">
-                <img class="project-image" src="images/microbial_cell_factory.webp"
-                  alt="Microbial Cell Factory Journal Cover" height="150px" width="150px">
-              </a>
+
+              <!-- Division of Labor Review Paper -->
+              <div class="project-tile">
+                <div class="project-tile-text">
+                  <div class="project-tile-title">
+                    <h3 class="project-tile-title-text">
+                      <a
+                        class="project-tile-title-link"
+                        target="_blank"
+                        href="/papers/division-of-labor-review"
+                      >
+                        Engineering microbial consortia by division of labor
+                      </a>
+                    </h3>
+                  </div>
+                  <p class="project-tile-subtitle">
+                    <strong>Garrett W. Roell</strong>, Jian Zha, Rhiannon R.
+                    Carr, Mattheos A. Koffas, Stephen S. Fong, and Yinjie J.
+                    Tang
+                  </p>
+                </div>
+                <a
+                  href="/papers/division-of-labor-review"
+                  target="_blank"
+                  class="project-image-holder"
+                  aria-label="link to paper"
+                >
+                  <img
+                    class="project-image"
+                    src="images/microbial_cell_factory.webp"
+                    alt="Microbial Cell Factory Journal Cover"
+                    height="150px"
+                    width="150px"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
+        <!-- </div> -->
+      </section>
+
+      <section id="contact">
+        <h2 class="section-title">CONTACT</h2>
+        <div class="section-content">
+          <p>
+            The Roell lab is looking for students at all levels (undergraduates,
+            masters, and Ph.D. students). If you are interested in conducting
+            research at the intersection of synthetic biology and AI, please
+            contact Garrett directly at
+            <a href="mailto:groell@hawaii.edu">groell@hawaii.edu</a>.
+          </p>
+          <hr />
+          <p>
+            1910 East-West Road<br />
+            Sherman Laboratory 228<br />
+            University of Hawaiʻi at Mānoa<br />
+            Honolulu, HI 96822
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="footer-container">
+      <p class="footer-name" id="footer-name"></p>
+      <div class="footer-buttons">
+        <!-- github button -->
+        <a href="https://github.com/garrettroell/lab_site" target="_blank">
+          <button class="footer-button">
+            <img
+              src="../icons/github-line.svg"
+              alt="github icon"
+              class="github-line-icon"
+              loading="lazy"
+            />
+          </button>
+        </a>
       </div>
-      <!-- </div> -->
-    </section>
-
-    <section id="contact">
-      <h2 class="section-title">CONTACT</h2>
-      <div class="section-content">
-        <p>
-          The Roell lab is looking for students at all levels (undergraduates, masters, and Ph.D. students). If you are
-          interested in conducting research at the intersection of synthetic biology and AI, please contact Garrett
-          directly at <a href="mailto:groell@hawaii.edu">groell@hawaii.edu</a>.
-
-        </p>
-        <hr>
-        <p>
-          Roell Research Group<br>
-          St John Plant Science Lab<br>
-          University of Hawaiʻi at Mānoa<br>
-          3190 Maile Way, 2nd Floor<br>
-          Honolulu, HI 96822
-        </p>
-      </div>
-    </section>
-  </main>
-</body>
-
-<!-- footer -->
-<div class="footer">
-  <div class="footer-container">
-    <p class="footer-name" id="footer-name"></p>
-    <div class="footer-buttons">
-      <!-- github button -->
-      <a href="https://github.com/garrettroell/lab_site" target="_blank">
-        <button class="footer-button">
-          <img src="../icons/github-line.svg" alt="github icon" class="github-line-icon" loading="lazy">
-        </button>
-      </a>
     </div>
   </div>
-</div>
-
 </html>
